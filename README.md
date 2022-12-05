@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# FreeDSoft_Frontend_Assignment
+## Pokemon query (with API)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 실행 방법
+- Git Clone 후, Terminal에 `npm install` 또는 `yarn` 입력 후, `node_modules` 폴더가 생성 되었다면 `npm start` 혹은 `yarn start` 로 실행
 
-## Available Scripts
+### 개발 환경 및 테스트 환경
+- 개발 환경
+  - Node: v18.4.0
+  - React.js: 18.2.0
+  - IDE: visual studio code
 
-In the project directory, you can run:
+### 구현 내용
+- 기본적인 Design 변경
+- `fetch()` 를 통해 API 호출 및 응답 처리 구현
+- id를 통한 포켓몬 검색
+- 검색 결과를 시각화 함 (포켓몬 이미지, 아이디, 이름)
+- 추가적인 구현 내용
+  - `Search` 화면 외에도 따로 `Main` 화면 구현 
+    - 메인 화면이 있으면 좀 더 완성도 있을 것 같아서 추가적으로 구현하였습니다.   
+  - 에러 처리 
+    - 존재하지 않는 id 혹은 빈 값, 숫자가 아닌 문자열 등 잘못된 id 값이 들어갈 경우 `fail` 컴포넌트를 따로 제작하여 보여주었습니다.  
+    - 짧은 시간 내에 완성도 있는 디자인을 만들어낼 수 있도록 `antd` UI 라이브러리를 사용하였습니다.  
+  - 반응형 웹사이트 구현
+    - 다양한 기기에서 사용할 수 있도록 반응형으로 추가 구현하였습니다.
+- 구현한 화면은 아래 스크린샷을 통해 확인하실 수 있습니다.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 스크린샷
+- 메인 화면 
+- 검색 화면
+- 검색 완료 화면 
+- 검색 실패 화면 
