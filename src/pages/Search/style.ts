@@ -18,7 +18,7 @@ export const mainContent = styled.div`
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 3%;
 `
 

@@ -6,19 +6,19 @@ export const mainContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 `;
 
-export const pokemonName = styled.div`
+export const pokemonInfo = styled.div`
     font-family: 'Poppins-Bold';
     font-weight: 700;
     font-size: 33px;
-    line-height: 70px;
+    line-height: 50px;
     text-align: center;
     color: rgba(20, 36, 59, 0.7);
 `
 
 export const pokemonImg = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 340px;
+  height: 340px;
 `
