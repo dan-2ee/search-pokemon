@@ -45,14 +45,14 @@ export const inputTitle = styled.div`
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
     color: rgba(20, 36, 59, 0.35);
     margin-right: 2%;
 `
 
 export const inputBox = styled.input`
-    width: 34%;
+    width: 35%;
     height: 45px;
     border: 1px solid #D8D8D8;
     border-radius: 10px;
@@ -74,7 +74,7 @@ export const btnSearch = styled.button`
     border-radius: 10px;
     cursor: pointer;
 
-    margin-left: 10%;
+    margin-left: 14%;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 22px;
