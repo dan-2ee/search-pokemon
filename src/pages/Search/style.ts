@@ -41,20 +41,23 @@ export const inputContainer = styled.div`
     justify-content: center;
 `
 
-export const inputTitle = styled.div`
+export const inputTitle = styled.div<{check: boolean}>`
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
-    color: rgba(20, 36, 59, 0.35);
+    color: ${(props) =>
+    props.check === true ? "rgba(20, 36, 59, 0.35)" :  "rgba(237, 53, 53, 0.5)"};
     margin-right: 2%;
 `
 
-export const inputBox = styled.input`
+export const inputBox = styled.input<{check: boolean}>`
     width: 35%;
     height: 45px;
-    border: 1px solid #D8D8D8;
+    border: ${(props) =>
+    props.check === true ? "1px solid #D8D8D8" : "1px solid #e04040"};
+    border-radius: 10px;
     border-radius: 10px;
     font-family: 'Poppins';
     font-style: normal;
