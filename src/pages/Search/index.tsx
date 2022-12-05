@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { json } from "stream/consumers";
 import * as S from "./style"
 import ViewPokemon from "../ViewPokemon";
-import { Alert } from 'antd';
 import ViewFail from "../ViewFail";
 
 function Search() {
@@ -15,6 +14,7 @@ function Search() {
     const handleChange = (e: any) => {
         if (isNaN(e.target.value)) setIdCheck(false);
         else if (e.target.value === "0") setIdCheck(false);
+        else if (e.target.value === "1000") setIdCheck(false);
         else if (e.target.value === "") setIdCheck(true);
         else setIdCheck(true);
         setId(e.target.value);
@@ -36,7 +36,6 @@ function Search() {
         }
         else {
             setDataCheck(false);
-            console.log("error");
         }
     }
 
@@ -54,7 +53,6 @@ function Search() {
                 {isClick ? 
                     dataCheck ? <ViewPokemon pokemonData = {data}/> : <ViewFail />
                      : null}
-                
             </S.mainContent>
         </S.mainContainer>
     )

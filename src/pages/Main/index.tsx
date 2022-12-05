@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import * as S from './style';
 
 function Main() {
-
     const navigate = useNavigate();
     const navigateToSearchPage = () => {
         navigate("/search");
