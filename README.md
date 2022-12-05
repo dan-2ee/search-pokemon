@@ -27,6 +27,16 @@
 
 ### 스크린샷
 - 메인 화면 
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/65989401/205613929-8cc60244-d0d4-4e8a-be89-def13ba0573e.png" />
+
 - 검색 화면
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/65989401/205614622-3a978bce-761c-4199-80f1-0aaad7f7c961.png" />
+
 - 검색 완료 화면 
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/65989401/205615111-c7669740-122e-4d0a-8885-5d6a2c03cdc4.png" />
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/65989401/205615789-2b544e9b-5a27-4b55-921c-baf12fe6ffa1.png" />
+
+
 - 검색 실패 화면 
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/65989401/205615219-b9bbac00-e063-40d5-a0f7-3e41640f5f7b.png" />
+
