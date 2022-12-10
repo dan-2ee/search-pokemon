@@ -1,4 +1,4 @@
-# FreeDSoft_Frontend_Assignment
+# Frontend_Assignment
 ## Pokemon query (with API)
 
 ### 실행 방법
